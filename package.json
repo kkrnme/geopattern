@@ -37,6 +37,7 @@
     "browserify": "^16.5.0",
     "eslint": "^6.7.2",
     "mocha": "^6.2.2",
+    "typescript": "^3.7.3",
     "uglify-js": "^3.7.2",
     "watchify": "^3.11.1",
     "xml-parser": "^1.2.1"
