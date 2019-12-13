@@ -23,7 +23,7 @@
     "lint": "eslint .",
     "mocha": "mocha tests",
     "test": "npm run lint && npm run mocha",
-    "build": "browserify -s GeoPattern -i buffer . | uglifyjs -mc --screw-ie8 > js/geopattern.min.js",
+    "build": "browserify -s GeoPattern -i buffer . | uglifyjs -mc --ie8 > js/geopattern.min.js",
     "watch": "watchify -s GeoPattern -i buffer . -o js/geopattern.js"
   },
   "repository": {
