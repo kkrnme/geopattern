@@ -34,11 +34,11 @@
     "object-assign": "^4.1.0"
   },
   "devDependencies": {
-    "browserify": "^13.1.1",
-    "eslint": "^0.10.0",
-    "mocha": "^2.0.1",
-    "uglify-js": "^2.7.5",
-    "watchify": "^3.7.0",
+    "browserify": "^16.5.0",
+    "eslint": "^0.10.2",
+    "mocha": "^2.5.3",
+    "uglify-js": "^2.8.29",
+    "watchify": "^3.11.1",
     "xml-parser": "^1.2.1"
   }
 }
