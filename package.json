@@ -23,7 +23,7 @@
     "lint": "eslint .",
     "mocha": "mocha tests",
     "test": "npm run lint && npm run mocha",
-    "build": "parcel build lib/index.js --out-dir js --out-file geopattern.min.js --no-source-maps",
+    "build": "parcel build lib/index.ts --out-dir js --out-file geopattern.min.js --no-source-maps",
     "build-old": "browserify -s GeoPattern -i buffer . | uglifyjs -mc --ie8 > js/geopattern.min.js",
     "watch": "watchify -s GeoPattern -i buffer . -o js/geopattern.js"
   },
@@ -35,13 +35,14 @@
     "object-assign": "^4.1.0"
   },
   "devDependencies": {
+    "@types/node": "^12.12.17",
     "browserify": "^16.5.0",
     "eslint": "^6.7.2",
     "mocha": "^6.2.2",
+    "parcel-bundler": "^1.12.4",
     "typescript": "^3.7.3",
     "uglify-js": "^3.7.2",
     "watchify": "^3.11.1",
-    "parcel-bundler": "^1.12.4",
     "xml-parser": "^1.2.1"
   }
 }
