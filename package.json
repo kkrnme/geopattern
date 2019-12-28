@@ -16,8 +16,9 @@
   ],
   "main": "lib/index.js",
   "files": [
-    "js/*"
+    "lib/*.js"
   ],
+  "types": "@types/*",
   "scripts": {
     "lint": "eslint .",
     "mocha": "mocha tests",
