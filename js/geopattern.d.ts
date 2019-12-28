@@ -1,4 +1,4 @@
-declare module "geopattern" {
+declare module "@kkrnme/geopattern" {
   let generate: (string: string) => Pattern
   /**
    * Generated pattern.
