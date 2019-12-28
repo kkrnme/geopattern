@@ -1,5 +1,5 @@
 {
-  "name": "geopattern",
+  "name": "@kkrnme/geopattern",
   "version": "1.2.4",
   "description": "Generate beautiful SVG patterns",
   "keywords": [
