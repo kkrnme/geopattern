@@ -1,6 +1,6 @@
 {
-  "name": "geopattern",
-  "version": "1.2.3",
+  "name": "@kkrnme/geopattern",
+  "version": "1.2.4",
   "description": "Generate beautiful SVG patterns",
   "keywords": [
     "svg",
@@ -8,8 +8,7 @@
     "geometric",
     "background"
   ],
-  "homepage": "http://btmills.github.io/geopattern/",
-  "bugs": "https://github.com/btmills/geopattern/issues",
+  "bugs": "https://github.com/kkrnme/geopattern/issues",
   "license": "MIT",
   "contributors": [
     "Brandon Mills",
@@ -23,22 +22,26 @@
     "lint": "eslint .",
     "mocha": "mocha tests",
     "test": "npm run lint && npm run mocha",
-    "build": "browserify -s GeoPattern -i buffer . | uglifyjs -mc --screw-ie8 > js/geopattern.min.js",
+    "build": "parcel build lib/index.js --out-dir js --out-file geopattern.min.js --no-source-maps",
+    "build-old": "browserify -s GeoPattern -i buffer . | uglifyjs -mc --ie8 > js/geopattern.min.js",
     "watch": "watchify -s GeoPattern -i buffer . -o js/geopattern.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/btmills/geopattern"
+    "url": "https://github.com/kkrnme/geopattern"
   },
   "dependencies": {
     "object-assign": "^4.1.0"
   },
   "devDependencies": {
-    "browserify": "^13.1.1",
-    "eslint": "^0.10.0",
-    "mocha": "^2.0.1",
-    "uglify-js": "^2.7.5",
-    "watchify": "^3.7.0",
+    "@types/node": "^12.12.17",
+    "browserify": "^16.5.0",
+    "eslint": "^6.7.2",
+    "mocha": "^6.2.2",
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.7.3",
+    "uglify-js": "^3.7.2",
+    "watchify": "^3.11.1",
     "xml-parser": "^1.2.1"
   }
 }
