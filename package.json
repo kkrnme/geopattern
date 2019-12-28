@@ -18,7 +18,7 @@
   "files": [
     "lib/*.js"
   ],
-  "types": "@types/*",
+  "types": "@types/index.d.ts",
   "scripts": {
     "lint": "eslint .",
     "mocha": "mocha tests",
