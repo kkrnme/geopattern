@@ -16,7 +16,7 @@
   ],
   "main": "lib/index.js",
   "files": [
-    "lib/*.js"
+    "js/*"
   ],
   "scripts": {
     "lint": "eslint .",
