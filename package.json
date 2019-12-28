@@ -16,7 +16,7 @@
   ],
   "main": "lib/index.js",
   "files": [
-    "lib/*.js"
+    "lib/*"
   ],
   "types": "@types/index.d.ts",
   "scripts": {
