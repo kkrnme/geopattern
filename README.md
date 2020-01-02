@@ -1,4 +1,18 @@
-# GeoPattern
+# kkrnme/geopattern
+
+This repository is forked from [btmills/geopattern](https://github.com/btmills/geopattern).
+
+__This package is maintained to use in Node.js, may not works in browser.__
+
+# Difference from original
+
+- Added TypeScript support
+- Built by Parcel
+- Contributor @kkrnme is Japanesea and is not good at English
+
+The following contents is even with the original.
+
+---
 
 [![npm version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
