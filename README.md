@@ -2,13 +2,10 @@
 
 This repository is forked from [btmills/geopattern](https://github.com/btmills/geopattern).
 
-__This package is maintained to use in Node.js, may not works in browser.__
-
 # Difference from original
 
-- Added TypeScript support
-- Built by Parcel
-- Contributor @kkrnme is Japanesea and is not good at English
+- Added TypeScript support (contains `d.ts` file)
+- Contributor @kkrnme is Japanese and is not good at English
 
 The following contents is even with the original.
 
